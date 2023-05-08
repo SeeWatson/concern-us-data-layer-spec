@@ -13,7 +13,7 @@ dataLayer.push({
   event: 'form_submit',
   eventModel: {
     category: '<category>',
-    count_form_complete: 1,
+    count_form_submit: 1,
     identifier: '<identifier>',
     name: '<name>',
   },
