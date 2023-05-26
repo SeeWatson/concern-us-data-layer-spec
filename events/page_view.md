@@ -22,6 +22,9 @@ window.dataLayer.push({
     "page_category3": "<page_category3>",
     "page_category4": "<page_category4>",
     "page_category5": "<page_category5>",
+    "page_country_facet": "<page_country_facet>",
+    "page_topic_facet": "<page_topic_facet>",
+    "page_type_facet": "<page_type_facet>",
     "page_id": "<page_id>",
     "language": "<language>",
     "page_name": "<page_name>",
@@ -43,6 +46,9 @@ window.dataLayer.push({
 |page_category4|string|optional|page_category2 through page_category5 can be used to break down category if additional detail is needed and you have space for more custom dimensions|Implementation|
 |page_category5|string|optional|page_category2 through page_category5 can be used to break down category if additional detail is needed and you have space for more custom dimensions|Data Layer|
 |page_id|string|recommended||12345|
+|page_country_facet|string|recommended|The value of the country facet for this page.|Afghanistan|
+|page_topic_facet|string|recommended|The value of the topic facet for this page.|Water & Sanitation, Maternal & Child Health, Hunger|
+|page_type_facet|string|recommended|The value of the type facet for this page.|News, Newsletter, White Paper|
 |page_name|string|optional|The page name. This is primarily here for parity with Adobe Analytics, which wants a page name.|Products|
 |page_location|string|required|The full URL of the page. Equivalent to document.location.href.|https://www.yoursite.com/yourpath|
 |page_referrer|string|required|The page referrer. Equivalent to document.referrrer.|https://www.google.com|
